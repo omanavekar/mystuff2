@@ -30,8 +30,8 @@ This is a header
 </head>
 ```
 
-```
-BOIS ARE FREE HERE!
+``` C++
+Serial.println("HELLO");
 ``` 
 
 | "Yes"  | "No" | "Food"|
