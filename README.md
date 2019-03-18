@@ -31,7 +31,19 @@ This is a header
 ```
 
 ``` C++
-Serial.println("HELLO");
+#include <DFPlayer_Mini_Mp3.h>
+#include <SoftwareSerial.h>
+#include <Wire.h>  
+
+#define PIN_BUSY D0
+
+SoftwareSerial mp3Serial(D1, D2); // RX, TX
+
+const int MUX_A = D5;
+const int MUX_B = D6;
+const int MUX_C = D7;
+
+const int ANALOG_INPUT = A0;
 ``` 
 
 | "Yes"  | "No" | "Food"|
