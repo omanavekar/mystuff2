@@ -30,7 +30,7 @@ This is a header
 </head>
 ```
 
-``` Arduino
+``` C
 #include <DFPlayer_Mini_Mp3.h>
 #include <SoftwareSerial.h>
 #include <Wire.h>  
